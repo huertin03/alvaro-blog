@@ -3,5 +3,6 @@
         <title>Categories - Category - Álvaro Huertas - Blog</title>
         <link>http://localhost:1313/categories/</link>
         <description>Categories - Category - Álvaro Huertas - Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>huertas.contact@gmail.com (Álvaro Huertas Díaz)</managingEditor>
+            <webMaster>huertas.contact@gmail.com (Álvaro Huertas Díaz)</webMaster><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /></channel>
 </rss>

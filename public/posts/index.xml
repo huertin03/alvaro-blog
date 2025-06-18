@@ -3,14 +3,14 @@
         <title>All Posts - Álvaro Huertas - Blog</title>
         <link>http://localhost:1313/posts/</link>
         <description>All Posts | Álvaro Huertas - Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Wed, 18 Jun 2025 10:15:48 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>huertas.contact@gmail.com (Álvaro Huertas Díaz)</managingEditor>
+            <webMaster>huertas.contact@gmail.com (Álvaro Huertas Díaz)</webMaster><lastBuildDate>Wed, 18 Jun 2025 10:15:48 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
     <title>My Own Tech Blog</title>
     <link>http://localhost:1313/post1/</link>
     <pubDate>Wed, 18 Jun 2025 10:15:48 &#43;0200</pubDate>
     <author>Álvaro Huertas Díaz</author>
     <guid>http://localhost:1313/post1/</guid>
-    <description><![CDATA[<h1 id="welcome-to-my-tech-blog">Welcome to My Tech Blog</h1>
-<p>Hello and welcome to my personal tech blog! My name is Álvaro, and I’m excited to start sharing my journey, projects, and thoughts with you.</p>
+    <description><![CDATA[<p>Hello and welcome to my personal tech blog! My name is Álvaro, and I’m excited to start sharing my journey, projects, and thoughts with you.</p>
 <h2 id="why-this-blog">Why This Blog?</h2>
 <p>The main purpose of this blog is to document and share my experiences as I explore different areas of technology and software engineering. Whether it’s a new framework, a side project, or just some thoughts on the industry, I want this space to be a resource for myself and anyone interested in similar topics.</p>]]></description>
 </item>

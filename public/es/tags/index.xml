@@ -1,0 +1,8 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - Etiqueta - Álvaro Huertas - Blog</title>
+        <link>http://localhost:1313/es/tags/</link>
+        <description>Tags - Etiqueta - Álvaro Huertas - Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>huertas.contact@gmail.com (Álvaro Huertas Díaz)</managingEditor>
+            <webMaster>huertas.contact@gmail.com (Álvaro Huertas Díaz)</webMaster><atom:link href="http://localhost:1313/es/tags/" rel="self" type="application/rss+xml" /></channel>
+</rss>

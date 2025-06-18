@@ -1,8 +1,6 @@
 # My Own Tech Blog
 
 
-# Welcome to My Tech Blog
-
 Hello and welcome to my personal tech blog! My name is Álvaro, and I’m excited to start sharing my journey, projects, and thoughts with you.
 
 ## Why This Blog?

@@ -1,0 +1,20 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Álvaro Huertas - Blog</title>
+        <link>http://localhost:1313/es/</link>
+        <description>A personal tech blog by Álvaro sharing insights, tutorials, and reflections on technology and software engineering. Follow the journey of Project B.E.L.E.N (Balanced Efficient Local Ephemeral Nodes), a self-hosted Kubernetes cluster, along with thoughts on modern development, tools, and industry trends.</description>
+        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>huertas.contact@gmail.com (Álvaro Huertas Díaz)</managingEditor>
+            <webMaster>huertas.contact@gmail.com (Álvaro Huertas Díaz)</webMaster><lastBuildDate>Wed, 18 Jun 2025 10:15:48 &#43;0200</lastBuildDate>
+            <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Mi Propio Blog Tecnológico</title>
+    <link>http://localhost:1313/es/post1/</link>
+    <pubDate>Wed, 18 Jun 2025 10:15:48 &#43;0200</pubDate>
+    <author>Álvaro Huertas Díaz</author>
+    <guid>http://localhost:1313/es/post1/</guid>
+    <description><![CDATA[<p>¡Hola y bienvenido a mi blog tecnológico personal! Mi nombre es Álvaro y estoy emocionado de comenzar a compartir mi recorrido, proyectos y pensamientos contigo.</p>
+<h2 id="por-qué-este-blog">¿Por qué este blog?</h2>
+<p>El propósito principal de este blog es documentar y compartir mis experiencias mientras exploro diferentes áreas de la tecnología y la ingeniería de software. Ya sea un nuevo framework, un proyecto paralelo o simplemente algunas reflexiones sobre la industria, quiero que este espacio sea un recurso tanto para mí como para cualquier persona interesada en temas similares.</p>]]></description>
+</item>
+</channel>
+</rss>

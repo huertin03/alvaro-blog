@@ -26,6 +26,69 @@ languageName = "English"
 
 hasCJKLanguage = false
 
+# determines default content language ["en", "zh-cn", "fr", "pl", ...]
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    weight = 1
+    title = "Álvaro Huertas - Blog"
+    languageCode = "en"
+    languageName = "English"
+    [[languages.en.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Posts"
+      url = "/posts/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Tags"
+      url = "/tags/"
+      title = ""
+    [[languages.en.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categories"
+      url = "/categories/"
+      title = ""
+
+  [languages.es]
+    weight = 2
+    title = "Álvaro Huertas - Blog"
+    languageCode = "es"
+    languageName = "Español"
+    [[languages.es.menu.main]]
+      weight = 1
+      identifier = "posts"
+      pre = ""
+      post = ""
+      name = "Publicaciones"
+      url = "/posts/"
+      title = ""
+    [[languages.es.menu.main]]
+      weight = 2
+      identifier = "tags"
+      pre = ""
+      post = ""
+      name = "Etiquetas"
+      url = "/tags/"
+      title = ""
+    [[languages.es.menu.main]]
+      weight = 3
+      identifier = "categories"
+      pre = ""
+      post = ""
+      name = "Categorías"
+      url = "/categories/"
+      title = ""
 
 
 # copyright description used only for seo schema
@@ -134,25 +197,25 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   # public git repo url only then enableGitInfo is true
 
-  gitRepo = ""
+  gitRepo = "https://github.com/huertin03/alvaro-blog"
 
   #  which hash function used for SRI, when empty, no SRI is used
 
   # ["sha256", "sha384", "sha512", "md5"]
 
-  fingerprint = ""
+  fingerprint = "sha256"
 
   #  date format
 
-  dateFormat = "2006-01-02"
+  dateFormat = "02-01-2006"
 
   # website title for Open Graph and Twitter Cards
 
-  title = "My cool site"
+  title = "Álvaro Huertas - Blog"
 
   # website description for RSS, SEO, Open Graph and Twitter Cards
 
-  description = "This is my cool site"
+  description = "A personal tech blog by Álvaro sharing insights, tutorials, and reflections on technology and software engineering. Follow the journey of Project B.E.L.E.N (Balanced Efficient Local Ephemeral Nodes), a self-hosted Kubernetes cluster, along with thoughts on modern development, tools, and industry trends."
 
   # website images for Open Graph and Twitter Cards
 
@@ -164,11 +227,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.author]
 
-    name = "xxxx"
+    name = "Álvaro Huertas Díaz"
 
-    email = ""
+    email = "huertas.contact@gmail.com"
 
-    link = ""
+    link = "https://www.linkedin.com/in/alvarohuertasdiaz/"
 
 
 
@@ -194,7 +257,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       # title name
 
-      name = ""
+      name = "Álvaro Huertas - Blog"
 
       # you can add extra information before the name (HTML format is supported), such as icons
 
@@ -234,7 +297,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # Site creation time
 
-    since = 2019
+    since = 2025
 
     # ICP info only in China (HTML format is supported)
 
@@ -288,7 +351,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # optional site title override for the app when added to an iOS home screen or Android launcher
 
-    title = "My cool site"
+    title = "Álvaro Huertas - Blog"
 
     # whether to omit favicon resource links
 
@@ -380,11 +443,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
       #  title shown in home page (HTML format is supported)
 
-      title = ""
+      title = "Álvaro Huertas"
 
       # subtitle shown in home page (HTML format is supported)
 
-      subtitle = "This is My New Hugo Site"
+      subtitle = "Welcome to my blog where I share my thoughts and projects with the community"
 
       # whether to use typeit animation for subtitle
 
@@ -420,167 +483,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
 
-    GitHub = "xxxx"
+    GitHub = "https://github.com/huertin03"
 
-    Linkedin = ""
+    Linkedin = "https://www.linkedin.com/in/alvarohuertasdiaz/"
 
-    X = "xxxx" # 
+    Reddit = "https://www.reddit.com/user/huertinn03/"
 
-    Twitter = "" # 
+    Spotify = "https://open.spotify.com/user/huertin03?si=06d421f477bc4788"
 
-    Instagram = "xxxx"
-
-    Facebook = "xxxx"
-
-    Telegram = "xxxx"
-
-    Medium = ""
-
-    Gitlab = ""
-
-    Youtubelegacy = ""
-
-    Youtubecustom = ""
-
-    Youtubechannel = ""
-
-    Tumblr = ""
-
-    Quora = ""
-
-    Keybase = ""
-
-    Pinterest = ""
-
-    Reddit = ""
-
-    Codepen = ""
-
-    FreeCodeCamp = ""
-
-    Bitbucket = ""
-
-    Stackoverflow = ""
-
-    Weibo = ""
-
-    Odnoklassniki = ""
-
-    VK = ""
-
-    Flickr = ""
-
-    Xing = ""
-
-    Snapchat = ""
-
-    Soundcloud = ""
-
-    Spotify = ""
-
-    Bandcamp = ""
-
-    Paypal = ""
-
-    Fivehundredpx = ""
-
-    Mix = ""
-
-    Goodreads = ""
-
-    Lastfm = ""
-
-    Foursquare = ""
-
-    Hackernews = ""
-
-    Kickstarter = ""
-
-    Patreon = ""
-
-    Steam = ""
-
-    Twitch = ""
-
-    Strava = ""
-
-    Skype = ""
-
-    Whatsapp = ""
-
-    Zhihu = ""
-
-    Douban = ""
-
-    Angellist = ""
-
-    Slidershare = ""
-
-    Jsfiddle = ""
-
-    Deviantart = ""
-
-    Behance = ""
-
-    Dribbble = ""
-
-    Wordpress = ""
-
-    Vine = ""
-
-    Googlescholar = ""
-
-    Researchgate = ""
-
-    Mastodon = ""
-
-    Thingiverse = ""
-
-    Devto = ""
-
-    Gitea = ""
-
-    XMPP = ""
-
-    Matrix = ""
-
-    Bilibili = ""
-
-    Discord = ""
-
-    DiscordInvite = ""
-
-    Lichess = ""
-
-    ORCID = ""
-
-    Pleroma = ""
-
-    Kaggle = ""
-
-    MediaWiki = ""
-
-    Plume = ""
-
-    HackTheBox = ""
-
-    RootMe = ""
-
-    Malt = "" # 
-
-    TikTok = "" # 
-
-    TryHackMe = "" # 
-
-    Codeberg = "" # 
-
-    HuggingFace = "" # 
-
-    Threads = "" # 
-
-    Phone = ""
-
-    Email = "xxxx@xxxx.com"
+    Email = "huertas.contact@gmail.com"
 
     RSS = true # 
 
@@ -992,7 +903,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
     # typing speed between each step (measured in milliseconds)
 
-    speed = 100
+    speed = 200
 
     # blinking speed of the cursor (measured in milliseconds)
 

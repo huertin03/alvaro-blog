@@ -1,18 +1,21 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Todos los Artículos - Álvaro Huertas - Blog</title>
-        <link>http://localhost:1313/es/posts/</link>
-        <description>Todos los Artículos | Álvaro Huertas - Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>es</language><managingEditor>huertas.contact@gmail.com (Álvaro Huertas Díaz)</managingEditor>
-            <webMaster>huertas.contact@gmail.com (Álvaro Huertas Díaz)</webMaster><lastBuildDate>Wed, 18 Jun 2025 10:15:48 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/es/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Mi Propio Blog Tecnológico</title>
-    <link>http://localhost:1313/es/post1/</link>
-    <pubDate>Wed, 18 Jun 2025 10:15:48 &#43;0200</pubDate>
-    <author>Álvaro Huertas Díaz</author>
-    <guid>http://localhost:1313/es/post1/</guid>
-    <description><![CDATA[<p>¡Hola y bienvenido a mi blog tecnológico personal! Mi nombre es Álvaro y estoy emocionado de comenzar a compartir mi recorrido, proyectos y pensamientos contigo.</p>
-<h2 id="por-qué-este-blog">¿Por qué este blog?</h2>
-<p>El propósito principal de este blog es documentar y compartir mis experiencias mientras exploro diferentes áreas de la tecnología y la ingeniería de software. Ya sea un nuevo framework, un proyecto paralelo o simplemente algunas reflexiones sobre la industria, quiero que este espacio sea un recurso tanto para mí como para cualquier persona interesada en temas similares.</p>]]></description>
-</item>
-</channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Álvaro Huertas - Blog</title>
+    <link>http://localhost:1313/es/posts/</link>
+    <description>Recent content in Posts on Álvaro Huertas - Blog</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <managingEditor>huertas.contact@gmail.com (Álvaro Huertas Díaz)</managingEditor>
+    <webMaster>huertas.contact@gmail.com (Álvaro Huertas Díaz)</webMaster>
+    <lastBuildDate>Wed, 18 Jun 2025 10:15:48 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mi Propio Blog Tecnológico</title>
+      <link>http://localhost:1313/es/post1/</link>
+      <pubDate>Wed, 18 Jun 2025 10:15:48 +0200</pubDate><author>huertas.contact@gmail.com (Álvaro Huertas Díaz)</author>
+      <guid>http://localhost:1313/es/post1/</guid>
+      <description>&lt;p&gt;¡Hola y bienvenido a mi blog tecnológico personal! Mi nombre es Álvaro y estoy emocionado de comenzar a compartir mi recorrido, proyectos y pensamientos contigo.&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-qué-este-blog&#34;&gt;¿Por qué este blog?&lt;/h2&gt;&#xA;&lt;p&gt;El propósito principal de este blog es documentar y compartir mis experiencias mientras exploro diferentes áreas de la tecnología y la ingeniería de software. Ya sea un nuevo framework, un proyecto paralelo o simplemente algunas reflexiones sobre la industria, quiero que este espacio sea un recurso tanto para mí como para cualquier persona interesada en temas similares.&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

@@ -483,13 +483,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
   [params.social]
 
-    GitHub = "https://github.com/huertin03"
+    GitHub = "huertin03"
 
-    Linkedin = "https://www.linkedin.com/in/alvarohuertasdiaz/"
+    Linkedin = "alvarohuertasdiaz"
 
-    Reddit = "https://www.reddit.com/user/huertinn03/"
+    Reddit = "huertinn03"
 
-    Spotify = "https://open.spotify.com/user/huertin03?si=06d421f477bc4788"
+    Spotify = "huertin03"
 
     Email = "huertas.contact@gmail.com"
 

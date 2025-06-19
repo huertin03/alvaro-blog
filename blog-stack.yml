@@ -1,0 +1,38 @@
+version: '3.7'
+
+services:
+  blog:
+    image: alvaro-blog:latest
+    networks:
+      - traefik
+    deploy:
+      mode: replicated
+      replicas: 2
+      update_config:
+        delay: 10s
+        order: start-first
+        monitor: 15s
+      restart_policy:
+        condition: any
+        delay: 5s
+        max_attempts: 3
+        window: 120s
+      labels:
+        - traefik.enable=true
+        - traefik.docker.network=traefik
+        
+        # Router configuration
+        - traefik.http.routers.blog.rule=Host(`blog.huertasserver.dpdns.org`)
+        - traefik.http.routers.blog.entrypoints=websecure
+        - traefik.http.routers.blog.tls=true
+        - traefik.http.routers.blog.tls.certresolver=letsencrypt
+        
+        # Service configuration
+        - traefik.http.services.blog.loadbalancer.server.port=80
+        
+        # Cloudflare companion constraint
+        - traefik.constraint=proxy-public
+
+networks:
+  traefik:
+    external: true

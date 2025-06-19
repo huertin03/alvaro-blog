@@ -4,7 +4,6 @@ draft: false
 title: 'My Own Tech Blog'
 author: 'Álvaro Huertas Díaz'
 authorLink: 'https://www.linkedin.com/in/alvarohuertasdiaz/'
-images: [""]
 resources:
 - name: "featured-image"
   src: "featured-image.png"

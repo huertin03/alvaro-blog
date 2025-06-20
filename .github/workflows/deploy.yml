@@ -1,0 +1,40 @@
+name: Simple Hugo Deploy
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  deploy:
+    runs-on: self-hosted
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        fetch-depth: 0
+
+    - name: Build Docker image
+      run: docker build -t alvaro-blog:latest .
+
+    - name: Update Docker service
+      run: docker service update --image alvaro-blog:latest blog_blog
+
+    - name: Verify deployment
+      run: |
+        sleep 10
+        docker service ps blog_blog --format "table {{.Name}}\t{{.CurrentState}}\t{{.Error}}"
+        
+    - name: Health check
+      run: |
+        for i in {1..30}; do
+          if curl -f -s https://blog.huertasserver.dpdns.org > /dev/null; then
+            echo "✅ Site is healthy!"
+            exit 0
+          fi
+          echo "⏳ Waiting for site to be ready... ($i/30)"
+          sleep 10
+        done
+        echo "❌ Health check failed"
+        exit 1

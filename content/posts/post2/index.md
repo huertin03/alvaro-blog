@@ -13,7 +13,7 @@ resources:
 tags: ["B.E.L.E.N", "Hardware"]
 ---
 
-# Why I Chose i7 Power Over N100 Efficiency for My Homelab Kubernetes Cluster
+# Why I Chose i7 Power Over N100 Efficiency for B.E.L.E.N. project
 
 For anyone building a home Kubernetes cluster, the initial hardware choice is a classic dilemma. For weeks, I was deep in the debate: should I build my K8s cluster with multiple, low-power mini-PCs, or go for something with more muscle? The core tension was pitting modern, ultra-efficient Intel N100s against older, refurbished enterprise hardware. The main consideration, as always for a 24/7 homelab, was initial cost versus the long-term energy bill.
 
@@ -23,7 +23,7 @@ So, naturally, I went in a different direction. I bought four **Lenovo M900 Tiny
 
 This wasn't a reckless decision. It was a strategic one, prioritizing performance and thread count for a more capable and responsive Kubernetes environment. Let me explain why this was the right move for my specific cluster goals.
 
-### Rethinking "Efficiency" for a Kubernetes Cluster
+### Rethinking "Efficiency"
 
 The initial debate focused heavily on one type of efficiency: power consumption in watts. This is a critical metric for any always-on server. The i7-6700T, with its 35W TDP, is undeniably thirstier than the 6W N100.
 
@@ -35,9 +35,11 @@ However, "efficiency" in a production-grade or serious lab environment isn't jus
 
 This is where the i7-6700T's superior performance justifies the power consumption trade-off.
 
-### The Hardware: Powering the Kubernetes Cluster: 4 Nodes as Lenovo M900s
+### The Hardware powering the Kubernetes Cluster
 
 Let's take a look at the heart of the Kubernetes cluster:
+
+{{< image src="/images/4nodes.jpeg" caption="4 lenovo M900 nodes" width=400 >}}
 
 | Component | Specification |
 | :--- | :--- |
@@ -55,9 +57,27 @@ Here’s a direct comparison of why this specific CPU is a game-changer for a Ku
 | **RAM Capacity** | Easily supports 32GB. | Often limited to 16GB. | **Future-Proofing.** Starting with 16GB per node is a strong baseline for a Kubernetes cluster. Knowing I can easily jump to 32GB provides a clear and affordable upgrade path as the cluster's demands grow. |
 | **Cost** | Excellent value on the refurbished market. | Great value brand new. | **Enterprise-Grade at a Discount.** These Lenovo Tinys are built like tanks for corporate environments. Getting this level of robust, reliable hardware for a price competitive with budget-oriented new PCs is a huge win for a stable homelab. |
 
+#### Additional node: CHUWI
+
+I will also add a CHUWI mini PC with an Intel N100 12 GB of RAM and 512 GB SSD of storage to the cluster. 
+
+The one that's currently running my home server.
+
+{{< image src="/images/chuwi-node.jpeg" caption="CHUWI LarkBox X" width=400 >}}
+
+#### More Hardware
+
+Raspberry Pi 3B as a local DNS server:
+
+{{< image src="/images/raspberry-pi.jpeg" caption="Raspberry Pi 3B" width=400 >}}
+
+Whatever this switch is:
+
+{{< image src="/images/switch.webp" caption="Switch" width=400 >}}
+
 ### The Road Ahead: From Bare Metal to K8s
 
-The hardware is racked and ready. The real fun of building the Kubernetes cluster is about to begin. The next steps will involve:
+The hardware is ready. The real fun of building the Kubernetes cluster is about to begin. The next steps will involve:
 
 1.  **Initial Node Provisioning:** Getting all four Lenovo Tinys flashed, configured with a base OS (likely Debian or Ubuntu Server), and networked.
 2.  **Kubernetes Installation:** Choosing and deploying a K8s distribution. I'm leaning towards K3s for its lightweight nature and simplicity, which is ideal for a homelab environment.

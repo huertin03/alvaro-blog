@@ -18,8 +18,17 @@ jobs:
     - name: Build Docker image
       run: docker build -t alvaro-blog:latest .
 
-    - name: Update Docker service
-      run: docker service update --image alvaro-blog:latest blog_blog
+    - name: Recreate service (if update fails)
+      run: |
+        # Save current service configuration
+        docker service inspect blog_blog > /tmp/blog_service_backup.json
+        
+        # Remove and recreate service
+        docker service rm blog_blog || true
+        sleep 5
+        
+        # Recreate with your stack file
+        docker stack deploy -c blog-stack.yml blog
 
     - name: Verify deployment
       run: |

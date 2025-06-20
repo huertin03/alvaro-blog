@@ -59,7 +59,7 @@ Here’s a direct comparison of why this specific CPU is a game-changer for a Ku
 
 #### Additional node: CHUWI
 
-I will also add a CHUWI mini PC with an Intel N100 12 GB of RAM and 512 GB of storage to the cluster. 
+I will also add a CHUWI mini PC with an Intel N100 12 GB of RAM and 512 GB SSD of storage to the cluster. 
 
 The one that's currently running my home server.
 
@@ -77,7 +77,7 @@ Whatever this switch is:
 
 ### The Road Ahead: From Bare Metal to K8s
 
-The hardware is racked and ready. The real fun of building the Kubernetes cluster is about to begin. The next steps will involve:
+The hardware is ready. The real fun of building the Kubernetes cluster is about to begin. The next steps will involve:
 
 1.  **Initial Node Provisioning:** Getting all four Lenovo Tinys flashed, configured with a base OS (likely Debian or Ubuntu Server), and networked.
 2.  **Kubernetes Installation:** Choosing and deploying a K8s distribution. I'm leaning towards K3s for its lightweight nature and simplicity, which is ideal for a homelab environment.

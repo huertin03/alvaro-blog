@@ -14,7 +14,7 @@ tags: ["B.E.L.E.N", "Hardware", "Kubernetes", "Impresión 3D", "Homelab", "Bare 
 ---
 
 
-En el último post, expuse el "porqué" de la elección de cuatro potentes mini PCs Lenovo M900 para mi clúster de Kubernetes. Pero una pila de mini-PCs en un escritorio no es un homelab en condiciones; es solo un montón de hardware. La siguiente fase crítica del Proyecto BELEN era montar, alimentar y organizar este equipo en un rack profesional de 19".
+En el último post, expuse el "porqué" de la elección de cuatro potentes mini PCs Lenovo M900 para mi clúster de Kubernetes. Pero una pila de mini-PCs en un escritorio no es un homelab en condiciones; es solo un montón de hardware. La siguiente fase crítica del Proyecto B.E.L.E.N. (Balanced Efficient Local Ephemeral Nodes) era montar, alimentar y organizar este equipo en un rack profesional de 19".
 
 Esta parte del viaje resultó ser una fantástica lección sobre la ambición frente a la realidad, y el arte del pivote estratégico.
 

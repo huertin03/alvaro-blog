@@ -14,7 +14,7 @@ tags: ["B.E.L.E.N", "Go", "TUI", "Self-hosting", "Actual Budget", "Claude", "Ope
 ---
 
 
-My BELEN cluster already runs [Actual Budget](https://actualbudget.org/) — a slick, local-first, self-hosted budgeting app. It's lovely in the browser. But I live in the terminal, and lately I've been pair-building everything with Claude Code. So I had an itch: I wanted to *talk* to my budget from a TUI and — more interestingly — I wanted **Claude** to be able to read it and actually reason about my money. This is the story of `actual-tui`, and of one very satisfying pivot.
+My BELEN cluster already runs [Actual Budget](https://actualbudget.org/) — a slick, local-first, self-hosted budgeting app. It's lovely in the browser. But I live in the terminal, and lately I've been pair-building everything with Claude Code. So I had an itch: I wanted to *talk* to my budget from a TUI and — more interestingly — I wanted **Claude** to be able to read it and actually reason about my money. This is the story of [`actual-tui`](https://github.com/B-E-L-E-N-Cluster/actual-tui), and of one very satisfying pivot.
 
 ### The wall: no API, and a stubborn rule
 
@@ -48,7 +48,7 @@ I had started building my own bridge — a little Node service wrapping the SDK 
 
 So I threw my custom bridge away. The OpenID token I'd fought so hard to capture? It dropped straight into the official CLI and *just worked* — accounts, transactions, budgets, all as clean JSON. Less code, more robust, officially supported. Killing your own darling code in favour of a better tool is, every single time, the right call.
 
-### The result: actual-tui
+### The result: [actual-tui](https://github.com/B-E-L-E-N-Cluster/actual-tui)
 
 What I ended up with is small and focused:
 

@@ -14,7 +14,7 @@ tags: ["B.E.L.E.N", "Go", "TUI", "Autoalojado", "Actual Budget", "Claude", "Open
 ---
 
 
-Mi clúster BELEN ya ejecuta [Actual Budget](https://actualbudget.org/) — una app de presupuestos elegante, *local-first* y autoalojada. En el navegador es una maravilla. Pero yo vivo en la terminal, y últimamente construyo todo en pareja con Claude Code. Así que tenía una espinita: quería *hablarle* a mi presupuesto desde una TUI y —más interesante aún— quería que **Claude** pudiera leerlo y razonar de verdad sobre mi dinero. Esta es la historia de `actual-tui`, y de un pivote de lo más satisfactorio.
+Mi clúster BELEN ya ejecuta [Actual Budget](https://actualbudget.org/) — una app de presupuestos elegante, *local-first* y autoalojada. En el navegador es una maravilla. Pero yo vivo en la terminal, y últimamente construyo todo en pareja con Claude Code. Así que tenía una espinita: quería *hablarle* a mi presupuesto desde una TUI y —más interesante aún— quería que **Claude** pudiera leerlo y razonar de verdad sobre mi dinero. Esta es la historia de [`actual-tui`](https://github.com/B-E-L-E-N-Cluster/actual-tui), y de un pivote de lo más satisfactorio.
 
 ### El muro: sin API, y una regla cabezota
 
@@ -48,7 +48,7 @@ Había empezado a construir mi propio puente — un pequeño servicio en Node en
 
 Así que tiré mi puente a medida. ¿El token OpenID que tanto me había costado capturar? Encajó directo en la CLI oficial y *simplemente funcionó* — cuentas, transacciones, presupuestos, todo en JSON limpio. Menos código, más robusto, soportado oficialmente. Matar tu propio código favorito en favor de una herramienta mejor es, siempre, la decisión correcta.
 
-### El resultado: actual-tui
+### El resultado: [actual-tui](https://github.com/B-E-L-E-N-Cluster/actual-tui)
 
 Lo que acabé teniendo es pequeño y centrado:
 
